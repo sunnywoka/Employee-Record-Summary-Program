@@ -14,16 +14,8 @@ public class Main {
 
     private static Employee[] employee = new Employee[100];//creat class array
 
-    private static void displayInfo(){//the information of student who contributed to the solution
-        System.out.println("--------------------------------------");
-        System.out.println("    Assignment 1 Semester 1 2020      ");
-        System.out.println("  Submitted by: Yuekai, Wu 13113181   ");
-        System.out.println("--------------------------------------");
-    }
-
     public static void main(String[] args) {
 	// write your code here
-        displayInfo();//call information function
         int i=0;
         Scanner scanner;
         //read each line from test file and store in the Employee class
